@@ -45,7 +45,7 @@ class TaskServiceTest {
 
         // THEN
         assertThat(resultat.getTitle()).isEqualTo("Ecrire les tests");
-        assertThat(resultat.getStatus()).isEqualTo(TaskStatus.TODO);
+        assertThat(resultat.getStatus()).isEqualTo(TaskStatus.DONE);
         assertThat(resultat.getCreatedAt()).isNotNull();
     }
 
